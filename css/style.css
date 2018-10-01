@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#mainNav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.3s;
+}
+
+#mainNav .navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(255, 208, 0);
+    font-size: 2rem;
+    transition:padding 0.2s ease;
+}
+
+.navbar-nav{
+    text-transform: uppercase;
+    position: relative;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+   font-family: Montserrat;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #DCDCDC;
+    transition: all ease-in 0.3s;
+}
+
+#mainNav .navbar-nav .nav-item{
+    padding-left: 2.6rem;
+    display: block;
+    
+}
+
+
+.shrink {
+    padding-top: 0em !important;
+    padding-bottom: 0em !important; 
+    color: #DCDCDC;
+    background-color: rgb(21, 21, 24); 
+           
+}
+
+.contents{
+ padding-top: 200px;
+ background-image: url("../img/top.jpg");
+ background-size: cover;
+ height: 100vh;   
+}
+
+.intro-heading{
+    font-family: Montserrat;
+}
+
+.intro-para{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    color: rgb(255, 208, 0);
+    font-weight: 200px;
+}
