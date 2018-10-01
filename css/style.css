@@ -47,7 +47,7 @@
 }
 
 .contents{
- padding-top: 200px;
+ padding-top: 45vh;
  background-image: url("../img/top.jpg");
  background-size: cover;
  height: 100vh;   
@@ -62,4 +62,25 @@
     font-size: 1.5rem;
     color: rgb(255, 208, 0);
     font-weight: 200px;
+}
+
+.padding{
+    padding-top: 80px;
+}
+
+.padding-small{
+    padding-top: 40px;
+}
+
+
+.icon-js{
+   color: #f7df1e;
+}
+
+.icon-css{
+    color:rgb(71, 71, 212); 
+}
+
+.icon-react{
+    color: rgb(38, 139, 131)
 }
