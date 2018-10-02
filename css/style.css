@@ -48,7 +48,7 @@
 
 .contents{
  padding-top: 45vh;
- background-image: url("../img/top.jpg");
+ background-image: url("https://picsum.photos/200/300");
  background-size: cover;
  height: 100vh;   
 }
