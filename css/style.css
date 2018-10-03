@@ -1,5 +1,6 @@
 body,
-html {
+html,
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -56,11 +57,10 @@ html {
   color: #dcdcdc;
 }
 
-.contents {
-  padding-top: 45vh;
-  background-image: url("https://picsum.photos/200/300");
-  background-size: cover;
-  height: 100vh;
+.intro-para {
+  font-family: "Kaushan Script", cursive;
+  color: rgb(255, 208, 0);
+  font-size: 1.4rem;
 }
 
 .padding {
@@ -93,4 +93,15 @@ html {
 
 .icon-react {
   color: rgb(38, 139, 131);
+}
+
+/*Portfolio*/
+.portfolio {
+  position: relative;
+}
+
+.portfolio img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
 }
