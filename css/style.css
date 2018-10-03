@@ -104,4 +104,27 @@ h1 {
   height: 15rem;
   width: 100%;
   margin: 1em;
+  display: block;
+}
+
+.img-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  transition: all 0.8s;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
 }
