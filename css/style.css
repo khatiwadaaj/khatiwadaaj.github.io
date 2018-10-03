@@ -1,86 +1,103 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
-#mainNav{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    transition: all 0.3s;
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.3s;
 }
 
 #mainNav .navbar-brand {
-    font-family: 'Kaushan Script', cursive;
-    color: rgb(255, 208, 0);
-    font-size: 2rem;
-    transition:padding 0.2s ease;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(255, 208, 0);
+  font-size: 2rem;
+  transition: padding 0.2s ease;
 }
 
-.navbar-nav{
-    text-transform: uppercase;
-    position: relative;
+.navbar-nav {
+  text-transform: uppercase;
+  position: relative;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: #fff;
-   font-family: Montserrat;
+  color: #fff;
+  font-family: Montserrat;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #DCDCDC;
-    transition: all ease-in 0.3s;
+  color: #dcdcdc;
+  transition: all ease-in 0.3s;
 }
 
-#mainNav .navbar-nav .nav-item{
-    padding-left: 2.6rem;
-    display: block;
-    
+#mainNav .navbar-nav .nav-item {
+  padding-left: 1.5rem;
+  display: block;
+  font-size: 0.9rem;
 }
-
 
 .shrink {
-    padding-top: 0em !important;
-    padding-bottom: 0em !important; 
-    color: #DCDCDC;
-    background-color: rgb(21, 21, 24); 
-           
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+  color: #dcdcdc;
+  background-color: rgb(21, 21, 24);
 }
 
-.contents{
- padding-top: 45vh;
- background-image: url("../img/top.jpg");
- background-size: cover;
- height: 100vh;   
+.contents {
+  padding-top: 45vh;
+  background-image: url("https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  height: 100vh;
 }
 
-.intro-heading{
-    font-family: Montserrat;
+.intro-heading {
+  font-family: Montserrat;
+  color: #dcdcdc;
 }
 
-.intro-para{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 1.5rem;
-    color: rgb(255, 208, 0);
-    font-weight: 200px;
+.intro-para {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  color: rgb(255, 208, 0);
+  font-weight: 200px;
 }
 
-.padding{
-    padding-top: 80px;
+.padding {
+  padding-top: 40px;
 }
 
-.padding-small{
-    padding-top: 40px;
+.padding-small {
+  padding-top: 40px;
 }
 
-
-.icon-js{
-   color: #f7df1e;
+.icon-js {
+  color: #f7df1e;
 }
 
-.icon-css{
-    color:rgb(71, 71, 212); 
+.icon-css {
+  color: rgb(71, 71, 212);
 }
 
-.icon-react{
-    color: rgb(38, 139, 131)
+.icon-react {
+  color: rgb(38, 139, 131);
+}
+
+.icon-git {
+  color: rgb(247, 126, 82);
+}
+
+.icon-node {
+  color: rgb(140, 212, 140);
+}
+
+/* .portfolio {
+  margin: 4em 0;
+  position: relative;
+} */
+
+.portfolio img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
 }
