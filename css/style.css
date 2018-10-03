@@ -56,11 +56,11 @@ html {
   color: #dcdcdc;
 }
 
-.intro-para {
-  font-family: "Kaushan Script", cursive;
-  font-size: 1.5rem;
-  color: rgb(255, 208, 0);
-  font-weight: 200px;
+.contents {
+  padding-top: 45vh;
+  background-image: url("https://picsum.photos/200/300");
+  background-size: cover;
+  height: 100vh;
 }
 
 .padding {
@@ -91,13 +91,6 @@ html {
   color: rgb(140, 212, 140);
 }
 
-/* .portfolio {
-  margin: 4em 0;
-  position: relative;
-} */
-
-.portfolio img {
-  height: 15rem;
-  width: 100%;
-  margin: 1em;
+.icon-react {
+  color: rgb(38, 139, 131);
 }
